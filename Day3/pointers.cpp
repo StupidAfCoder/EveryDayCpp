@@ -18,6 +18,6 @@ int main(){
 
     //Free
     delete[] buffer;
-
+    
     return 0;
 }
