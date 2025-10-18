@@ -7,6 +7,9 @@
 */
 //Struct are mainly there for backward compatability for C.
 
+/*
+    For complexity Classes and simplicity is struct
+*/
 
 
 class Player{
