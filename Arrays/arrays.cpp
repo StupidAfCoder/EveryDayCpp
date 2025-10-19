@@ -1,4 +1,5 @@
 #include<iostream>
+#include<array>
 
 int main() {
     int example[7];
@@ -37,5 +38,13 @@ int main() {
     std::cout << count << std::endl;
 
     /*The Size of array returns the size of all the stored values so 6 multiplied by 4 that is 24 and the size of int is 4 bytes*/
+    //Only if array is stored in stack!!
+
+    //You can also use standard library for arrays!
+    std::array<int,10> anotherArray;
+    for(int i = 0 ; i < anotherArray.size() ; i++){
+        anotherArray[i] = i + 2;
+    }
+    std::cout << anotherArray[3] << std::endl;
     return 0;
 }
