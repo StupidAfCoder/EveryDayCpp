@@ -12,7 +12,7 @@ class Entity{
         }
         void Print(){
             std::cout << "Value Of X -> " << X << std::endl;
-            std::cout << "Value Of Y ->" << Y << std::endl;
+            std::cout << "Value Of Y -> " << Y << std::endl;
         }
         ~Entity(){
             std::cout << "Entity Destroyed!!" << std::endl;
@@ -28,5 +28,5 @@ int main(){
 
     function();
     return 0;
-    
+
 }
