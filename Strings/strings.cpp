@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cstring>
 #include<string>
 
 int main() {
@@ -26,6 +27,9 @@ int main() {
     //But You can do this
     std::string control = "Control" + std::string("Cool");
     std::cout << control << std::endl;
+
+    const char* some = "Ya\0shu";
+    std::cout << strlen(some) << std::endl;
 
     return 0;
 }
