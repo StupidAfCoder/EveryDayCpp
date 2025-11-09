@@ -40,7 +40,7 @@ class Entity{
 
 //Why Should You use member initializer?? TO IMPROVE PERFORMANCE!! Here is an example!!
 //Here the example class will have to make two instances of the constructors or to be precise first will be the default constructor and then the actual constructor!!
-
+//Output is Created Example!! and then Created Example with 6!! We therefore initialise with member constructors to avoid this duplication!!
 
 int main(){
     Entity zero;    
