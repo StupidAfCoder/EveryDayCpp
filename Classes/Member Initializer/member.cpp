@@ -44,6 +44,6 @@ class Entity{
 
 int main(){
     Entity zero;    
-    
+
     return 0;
 }

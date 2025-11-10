@@ -35,7 +35,7 @@ int main(){
 
     //We can also allocate on the heap 
     //IMPORTANT!!!! If you can allocate on the stack always I mean ALWAYS ALLOCATE ON THE STACK good for performance!!
-    {
+     {
         Entity* en = new Entity("C++");
         /*
             Two Things here 
