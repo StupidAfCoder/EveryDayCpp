@@ -1,1 +1,7 @@
+**.out
+**.exe
+**.elf
+**.o
+**.obj
+**.d
 .vscode/
