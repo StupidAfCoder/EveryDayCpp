@@ -20,7 +20,7 @@ class Dummy {
     public:
         explicit Dummy(int Stuff) : stuff(Stuff) {}
         Dummy() : stuff(0) {}
-}
+};
 
 void PrintEntity(const Entity& entity){
     //Cool Priniting Stuff!!
@@ -53,8 +53,12 @@ int main() {
     PrintEntity(Entity("cool"));
 
     //If you want to disable this you can make the constructor EXPLICIT which means it won't be automatically converted
-
-
+    
+    // Dummy dum = 22; This will raise an error in dummy class as we have made the constructor explicit!!
+    //You have to do this
+    Dummy dum = Dummy(3);
+    //Or the normal
+    Dummy dum1(3); 
 
     return 0;
 }
